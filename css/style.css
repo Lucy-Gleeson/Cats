@@ -1,0 +1,267 @@
+body{
+   background-color:#dccec6; 
+   
+}
+
+.wrapper{
+    margin:auto;
+    max-width:1400px;
+    background-color: #EAE2DD;
+
+}
+nav{
+    text-align: right;
+    height:80px;
+    font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #57483E;
+  margin-right: 30px;
+
+  
+}
+
+ul{
+  
+    top: 0;
+    background-color:#EAE2DD;
+
+}
+
+a{
+    padding: 50px;
+}
+nav a:hover{
+    color: #C48C67;
+}
+
+li{ 
+       display:inline;
+}
+
+.title{
+    background-image: url(../images/catwall.png);
+    min-height: 812px; 
+   
+}
+h1{
+    color:#DEB5B5;
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    text-align:right;
+  
+}
+
+.intro{
+
+   display:flex; 
+   gap:40px;
+    color: #8B796C;
+    height:757px ;
+    font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding:30px;
+  
+}
+
+.introText{
+    flex:1;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.ellipseCat{
+    margin-right:40px ;
+    margin-top:40px ;
+}
+
+.historyContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top:40px ;
+    padding-right:30px ;
+    column-gap: 30px;
+}
+.orangeCat{
+    min-width: 498px;
+    min-height: 571px;
+
+}
+
+.headerOne{
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #57483E;
+
+}
+.history{
+    background-color: #DEB5B5;
+    min-height:739px;
+    border-radius: 39px;
+    font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #887469;
+  margin-top: 30px;
+  margin-bottom:30px ;
+  margin:30px;
+  
+}
+
+.culture{
+    background-color: #BACCAA;
+    min-height: 781px ;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headerTwo{
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #444E46;
+    padding-top:50px ;
+    padding-left:30px ;
+}
+
+.whiteCat{
+    float:right;
+
+}
+.status{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    padding:40px ;
+    color: #657D6A;
+}
+.breeds{
+    background-color: #BACCAA;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    padding:40px ;
+    color: #657D6A;
+}
+
+.breedsContainer{
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+
+}
+
+.catBreeds{
+    text-align: center;
+}
+.headerThree{
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    color: #444E46;
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap:100px ;
+    column-gap: 40px;
+    margin: 50px;
+}
+
+h4{
+    color: #57483E;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+}
+
+.siamese{
+   border: 15px solid #DEB5B5;
+   border-radius:20px ;
+}
+
+.mainecoon{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+
+.britishshorthair{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+
+.sphynx{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+
+.persian{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+
+.ragdoll{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+
+.bombay{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+
+.russianblue{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+
+.himalayan{
+    border: 15px solid #DEB5B5;
+    border-radius:20px ;
+}
+ 
+.headerFour{
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    color: #444E46;
+}
+
+.care{
+    background-color:#DEB5B5;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    padding:40px ;
+    color: #887469;
+}
+
+.careContainer{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 30px;
+  
+  }
+
+  .careCat{
+    padding-left: 30px;
+  }
